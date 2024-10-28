@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/f95bcd872a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <div class="main">
+            
+            <div class="container">
+                <nav>
+                    <h2><span>M</span>y <span>P</span>ortfolio</h2>
+            
+                 <!-- <img src="https://media.slidesgo.com/storage/19350150/conversions/0-designer-portfolio-thumb.jpg" class="logo">  -->
+                 
+                <ul>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">My Services</a></li>
+                    <li><a href="#portfolio">My Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                </nav>
+            </div>
+            <div class="info">
+                <h3>Hi,I'm </h3>
+                <h1>Meer Shahana Shaik</h1>
+                
+                <span id="element"></span>
+        
+                    <h4>I create websites to enhance my skills <br>and interests. </h4>
+                    <a href="#">Hire Me</a>
+            </div>
+        </div>
+        <!-- about---------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="about-pic.jpg">
+                    </div>
+                    <div class="about-col-2">
+                     <h1 class="sub-title">About Me</h1> 
+                     <h3>As a passionate final-year B.Tech student specializing in Computer Science and Engineering, I am eager to apply my skills in web development and programming to contribute to innovative projects. Seeking an opportunity to work as a web developer or software engineer where I can leverage my technical expertise and problem-solving abilities to develop impactful and efficient solutions.</h3>  
+                     <div class="tab-titles">
+                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                     <p class="tab-links"  onclick="opentab('certifications')">Certifications</p>
+                     <p class="tab-links"  onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        
+                            <p><span>Web Designer</span><br>Designing web interfaces</p>
+                            <p><span>Web Development</span><br>Web app Development</p>
+                            <p><span>Soft Skills</span><br>Good Communication & quick learner</p>
+                        
+                     </div>
+                     <div class="tab-contents" id="certifications">
+                        
+                        <p><span>August,2024</span><br>AWS Cloud Technical Essentials</p>
+                        <p><span>March,2024</span><br>Databases and SQL for Data Science with Python</p>
+                        <p><span>February,2024</span><br>Foundations: Data, Data, Everywhere</p>
+                    
+                 </div>
+                 <div class="tab-contents" id="education">
+                        
+                    <p><span>SSC-2019</span><br>SVR E.M High School</p>
+                    <p><span>Intermediate-2021</span><br>Sri Chaitanya Jr College</p>
+                    <p><span>Bachelor of Technology-2025</span><br>Geethanjali Institute of science & Technology</p>
+                
+             </div>
+                </div>
+            </div>
+        </div>
+        <!-- services--------------- -->
+         <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Designing</h2>
+                        <h5>Crafting visually appealing and user-friendly websites that prioritize responsive design, usability, and modern aesthetics to enhance user experience and drive engagement.</h5>
+                        
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>Mern Stack development</h2>
+                        <h5>Developing full-stack web applications using MongoDB, Express.js, React, and Node.js, with a focus on creating scalable, high-performance, and dynamic solutions that meet client and industry standards.</h5>
+                        
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-file-excel"></i>
+                        <h2>MS Excel</h2>
+                        <h5> Offering expertise in data analysis, automation, and spreadsheet management through advanced Excel functions, pivot tables, macros, and data visualization to help streamline processes and make informed decisions.</h5>
+                       
+                    </div>
+                </div>
+            </div>
+         </div>
+         <!-- works------------>
+          <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Works</h1>
+             <div class="work-list">
+                <div class="work">
+                    <img src="image-1.jpg">
+                    <div class="layer">
+                        <h3>Front-End Development</h3>
+                        <p> Created responsive and visually appealing websites using HTML, CSS, and JavaScript, focusing on user experience and modern design principles. Developed custom layouts and interactive elements to ensure functionality across all devices.
+
+                        </p>
+                        <a href="#"><i class="fa-brands fa-html5"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image-2.jpg">
+                    <div class="layer">
+                        <h3>Expense Tracker</h3>
+                        <p>Developed a web-based application to help users track their daily expenses. Implemented features such as adding, editing, and categorizing expenses, with dynamic charts to visualize spending patterns. Built using the MERN stack to ensure scalability and smooth performance. </p>
+                        <a href="#"><i class="fa-solid fa-money-check-dollar"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image-3.jpg">
+                    <div class="layer">
+                        <h3>online Shopping website</h3>
+                        <p>Created a fully functional e-commerce platform using Html,CSS,Bootstrap.Integrated user authentication, product management, shopping cart, and payment gateway features to provide a seamless shopping experience.</p>
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        
+                    </div>
+                </div>
+                
+             </div>
+             <a href="#" class="btn">See more</a>
+          </div>
+          <!-- ---contact---- -->
+           <div id="contact">
+            <div class="container">
+                <div class="row">
+                  <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>shahanashamisk@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9494506100</p>
+                    <div class="social-icons">
+                      <!-- <a href=""><i class="fa-solid fa-location-dot"></i></a> -->
+                      <!-- <a href=""><i class="fa-regular fa-envelope"></i></a> -->
+                      <a href=""><i class="fa-brands fa-github"></i></a>
+                      <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Resume (2).pdf" download class="btn btn2"><i class="fa-solid fa-arrow-down"></i> Download CV</a>
+                    
+                  </div> 
+
+                  <div class="contact-right">
+                   <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                   </form>
+                   <span id="msg"></span>
+                  </div> 
+                </div>
+            </div>
+            
+           
+           </div>
+           
+
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                 for(tablink of tablinks){
+                     tablink.classList.remove("active-link");
+               } 
+               for(tabcontent of tabcontents){
+                   tabcontent.classList.remove("active-tab");
+               } 
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxxbe89A09o6VpedAVA5jJZQNHHa8FwT623aqSoOV7TPl3bpoQeCMoQMybD7QlOqVSd/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {msg.innerHTML="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+          <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+          <script>
+            var typed = new Typed('#element', {
+              strings: ['Web Designer.','Front-End Developer.','Web Developer.'],
+              typeSpeed: 50,
+            });
+          </script>
+    </body>
+</html>
